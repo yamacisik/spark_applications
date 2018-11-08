@@ -1,2 +1,2 @@
 # spark_applications
-This Repository will hold various Spark Applications using Scala API
+This Repository will hold various Spark Applications using Scala API. See individual folders.
