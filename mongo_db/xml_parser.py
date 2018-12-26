@@ -117,11 +117,11 @@ parser.setFeature(xml.sax.handler.feature_validation,False)
 parser.setContentHandler(handler)
 parser.parse("dblp-2018-08-01.xml")
 
-## Connect to the Mongo Client and create the hw3db database
+## Connect to the Mongo Client and create the dblp database
 
 client = MongoClient()
 client = MongoClient('localhost', 27017)
-db=client.hw3db
+db=client.dblp
 
 ## Inproceedings, each inproceeding has pubkey,title,booktitle, year and authors as columns
 ## Articles, each article has pubkey,title,journal, year and authors as columns
