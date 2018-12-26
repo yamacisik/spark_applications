@@ -1,6 +1,7 @@
 import pymongo
 import xml.sax
 from pymongo import MongoClient
+## Create 2 table from the data set based on the type of journals; article and inproceedings
 
 ## Handler Class for Parsing XML
 
