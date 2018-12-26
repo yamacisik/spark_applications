@@ -5,5 +5,5 @@ of major Computer Science journals and proceedings. More information about the d
 
 There are 5 different code files in the folder:
 
-1. xml_parser.py : This is the parser code that takes the xml data set format and creates two tables in the MongoDB
+1. xml_parser.py : This is the parser code that loads the dblp data set in xml format and import two tables named articles and inproceedings in the MongoDB
 2.
