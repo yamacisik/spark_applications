@@ -64,8 +64,8 @@ object MongoSpark {
             classOf[BSONObject]
         )
 
-       /* Task 4 
-     * Find the average number of collaborators varied in
+    
+     /* Find the average number of collaborators varied in
      * each decade for conference papers. 
      * The decades will be 1950-1959, 1960-1969, ...., 2000-2009, 2010-2015.*/
 
@@ -78,7 +78,6 @@ object MongoSpark {
         for( j <- 0 to areas.length-1){
         val avg=get_avg_collob(article,inproceedings,areas(j),decades(i))
             //results(0)="The average collobrators in year" + decades(i).toString + "in the Area" + areas(j) +" is:  " +avg.toString
-             
             results(k)=base+ decades(i)+ " in the area " + areas(j) + " is :   "+avg.toString
             k=k+1
         }    
