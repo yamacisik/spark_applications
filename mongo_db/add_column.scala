@@ -64,9 +64,9 @@ object MongoSpark {
             classOf[BSONObject]
         )
 
-    /* Task 1
-     * Add a column "Area" in the Inproceedings table.
-     * Then, populate the column "Area" with the values from the above table if
+    
+    /* Add a column "Area" in the Inproceedings table.
+     * Then, populate the column "Area" with the values from the fields given below if
      * there is a match, otherwise set it to "UNKNOWN" */
 
 
