@@ -64,7 +64,7 @@ object MongoSpark {
             classOf[BSONObject]
         )
 
-    /* Task 3
+    /*
      * Find the number of authors who wrote more journal papers than conference
      * papers (irrespective of research areas). */
 
